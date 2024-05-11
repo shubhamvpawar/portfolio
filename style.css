@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*----------------------------------- Header--------------------------------- */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    /* background-color: yellow; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+.header_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: gray; */
+}
+
+.header_div_left {
+    width: 50%;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.header_div_right {
+    width: 50%;
+    /* background-color: blue; */
+}
+
+.header_horizontal_list {
+    list-style: none;
+    text-align: right;
+
+}
+
+.header_horizontal_list li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.header-anchor {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    cursor: pointer;
+}
+
+.home-btn {
+    background-color: white;
+    border-radius: 5px;
+    border-color: gray;
+    box-shadow: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* --------------------------Main Home----------------------------- */
+
+.home-main-section {
+    margin-top: 100px;
+    /* background-color: teal; */
+    padding: 5px 0;
+    width: 100%;
+}
+
+.home-main-section-div {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: blueviolet; */
+    justify-content: center;
+    align-items: center;
+}
+
+.project-links {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* --------------------------Main Work Experience---------------------------- */
+
+.workexp-main-section {
+    /* margin-top: 100px; */
+    /* background-color: teal; */
+    padding: 5px 0;
+}
+
+.workexp-main-section-div {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: blueviolet; */
+    justify-content: center;
+    align-items: center;
+}
+
+.workexp-main-section-div-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------------Main Projects---------------------------- */
+
+.projects-main-section {
+    /* margin-top: 100px; */
+    /* background-color: teal; */
+    padding: 5px 0;
+}
+
+.projects-main-section-div {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: blueviolet; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*--------------------------------- Footer -----------------------------------------*/
+
+footer {
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    /* background-color: tomato; */
+    text-align: center;
+}
+
+.footer-div {
+    /* background-color: chocolate; */
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-ul {
+    padding: 0;
+}
+
+.footer-ul li {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer-anchor {
+    text-decoration: none;
+    color: black;
+}
+
+/*------------------------------------------- Blink----------------------------------- */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinking {
+    animation: blink 2s infinite;
+    color: red;
+}
+
+
+/* ------------------------------------------About---------------------------------- */
+.about {
+    margin: 0% 5%;
+    /* background-color: gray; */
+}
+
+.box {
+    background: black;
+    height: 2px;
+    margin: 56px 0;
+}
+
+
+.span-bold {
+    font-weight: bold;
+}
+
+.h4-heading {
+    text-decoration: underline;
+}
