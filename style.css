@@ -2,8 +2,21 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    /* background-color: var(--secondary-color);
+    color: var(--primary-color); */
 }
 
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+.dark-theme {
+    --primary-color: black;
+    --secondary-color: white;
+}
 
 /*----------------------------------- Header--------------------------------- */
 header {
@@ -12,7 +25,8 @@ header {
     top: 0;
     height: 100px;
     /* background-color: yellow; */
-    background-color: white;
+    background-color: var(--primary-color);
+    /* color: var(--secondary-color); */
     border-radius: 10px;
     box-shadow: 10px;
 }
@@ -50,7 +64,7 @@ header {
 
 .header-anchor {
     text-decoration: none;
-    color: black;
+    color: var(--secondary-color);
 }
 
 a {
@@ -58,14 +72,20 @@ a {
 }
 
 .home-btn {
-    background-color: white;
+    background-color: var(--secondary-color);
     border-radius: 5px;
     border-color: gray;
     box-shadow: none;
     cursor: pointer;
     font-weight: bold;
+    color: var(--primary-color);
+    padding: 0 2px;
 }
 
+#icon {
+    width: 30px;
+    cursor: pointer;
+}
 
 /* --------------------------Main Home----------------------------- */
 
