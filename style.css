@@ -69,6 +69,7 @@ header {
 
 a {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .home-btn {
@@ -79,7 +80,7 @@ a {
     cursor: pointer;
     font-weight: bold;
     color: var(--primary-color);
-    padding: 0 2px;
+    padding: 0 4px;
 }
 
 #icon {
