@@ -163,6 +163,7 @@ footer {
     height: auto;
     /* background-color: tomato; */
     text-align: center;
+    /* color: var(--primary-color); */
 }
 
 .footer-div {
@@ -184,7 +185,8 @@ footer {
 
 .footer-anchor {
     text-decoration: none;
-    color: black;
+    /* color: black; */
+    color: var(--secondary-color);
 }
 
 /*------------------------------------------- Blink----------------------------------- */
