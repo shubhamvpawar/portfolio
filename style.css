@@ -33,7 +33,7 @@ header {
 
 .header_div {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -63,6 +63,7 @@ header {
 }
 
 .header-anchor {
+    font-weight: bold;
     text-decoration: none;
     color: var(--secondary-color);
 }
